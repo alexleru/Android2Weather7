@@ -8,7 +8,7 @@ public class WeatherModelOfData implements Serializable {
     public double temperature;
     public int humidity;
     public double wind;
-    public int wind_of_direction;
+    public double wind_of_direction;
     public double pressure;
     public String picture;
 }

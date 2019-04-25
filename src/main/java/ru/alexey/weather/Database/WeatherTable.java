@@ -24,16 +24,16 @@ public class WeatherTable {
     public static void createTable(SQLiteDatabase database){
         database.execSQL("CREATE TABLE " + TABLE_NAME + " ("
                 + ROW_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-                + ROW_CITY + "TEXT NOT NULL,"
-                + ROW_DATE + "TEXT NOT NULL,"
-                + ROW_DATE_TXT + "TEXT NOT NULL,"
-                + ROW_TEMPERATURE + "DOUBLE NOT NULL,"
-                + ROW_HUMIDITY + "INTEGER NOT NULL,"
-                + ROW_WIND + "DOUBLE NOT NULL,"
-                + ROW_WIND_DIRECTION + "INTEGER NOT NULL,"
-                + ROW_PRESSURE + "DOUBLE NOT NULL,"
-                + ROW_PICTURE + "TEXT NOT NULL,"
-                + "UNIQUE(" + ROW_CITY + "," +  ROW_DATE + ")" +
+                + ROW_CITY + " TEXT NOT NULL,"
+                + ROW_DATE + " TEXT NOT NULL,"
+                + ROW_DATE_TXT + " TEXT NOT NULL,"
+                + ROW_TEMPERATURE + " DOUBLE NOT NULL,"
+                + ROW_HUMIDITY + " INTEGER NOT NULL,"
+                + ROW_WIND + " DOUBLE NOT NULL,"
+                + ROW_WIND_DIRECTION + " INTEGER NOT NULL,"
+                + ROW_PRESSURE + " DOUBLE NOT NULL,"
+                + ROW_PICTURE + " TEXT NOT NULL,"
+                + " UNIQUE(" + ROW_CITY + "," +  ROW_DATE + ")" +
                 ");");
         Log.d("---DB---", "CREATE-DB");
     }
@@ -69,8 +69,8 @@ public class WeatherTable {
             values.put(ROW_PICTURE, weatherModelOfData.picture);
 
             database.update(TABLE_NAME, values,
-                    ROW_CITY + "=" + cityModelOfData.city
-                    + "AND" + ROW_DATE + "=" + weatherModelOfData.date, null );
+                    ROW_CITY + "=" + "\"" + cityModelOfData.city + "\""
+                            + " AND " + ROW_DATE + "=" + weatherModelOfData.date, null );
         }
     }
 

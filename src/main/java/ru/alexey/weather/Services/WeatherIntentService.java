@@ -37,9 +37,12 @@ public class WeatherIntentService extends IntentService {
                         .setAutoCancel(true)
                         .setContentIntent(pendingIntent);
 
-        NotificationManager notificationManager =
-                (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        notificationManager.notify(NOTIFY_ID, builder.build());
+        try {
+            NotificationManager notificationManager =
+                    (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            notificationManager.notify(NOTIFY_ID, builder.build());
+        }catch (NullPointerException e){
+        }
         try {
             TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {

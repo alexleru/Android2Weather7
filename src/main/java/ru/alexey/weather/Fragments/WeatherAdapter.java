@@ -112,7 +112,7 @@ public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.WeatherV
 
     //получаем направление ветра в градусах и возращаем в описательном виде
     // (90 - это Восточный, 210 Юго-Западный)
-    private String windDirectionToString(Double windDirectionDouble){
+    private String windDirectionToString(double windDirectionDouble){
 
         if (windDirectionDouble >= 0 && windDirectionDouble < 22.5
                 && windDirectionDouble >= 337.5 && windDirectionDouble <= 360){

@@ -19,7 +19,10 @@ public class ActivityAboutWeather extends AppCompatActivity {
             finish();
             return;
         }
+        startFragment(savedInstanceState, about);
+    }
 
+    private void startFragment(Bundle savedInstanceState, String about) {
         if (savedInstanceState == null) {
             Fragment details;
             switch (about) {

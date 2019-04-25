@@ -9,6 +9,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.CardView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -147,11 +148,13 @@ public class FragmentSearch extends Fragment{
             @Override
             public void onFailure(@NonNull Call<WeatherRequestModel> call,
                                   @NonNull Throwable t) {
-                Toast.makeText(getContext(), getResources().getString(R.string.error), Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(),  getResources().getString(R.string.error) + t, Toast.LENGTH_LONG).show();
             }
         });
     }
-
+    //Сохранение данных в базу данных. При создании таблицы я добавил ключ на два поля город и дату-время
+    // , поэтому здесь делаю insert, который добавляет данные (игнорируя существующие insertWithOnConflict)
+    // и update, который обновяет существующие
     private void addElements(@NonNull String cityName, @NonNull WeatherRequestModel response){
         WeatherModelOfData[] weatherModelOfDatas = new WeatherModelOfData[response.list.length];
         int i=0;
@@ -169,6 +172,7 @@ public class FragmentSearch extends Fragment{
         }
         CityModelOfData cityModelOfData = new CityModelOfData(cityName, weatherModelOfDatas);
         WeatherTable.insertElement(cityModelOfData, database);
+        WeatherTable.updateElement(cityModelOfData, database);
     }
 
 

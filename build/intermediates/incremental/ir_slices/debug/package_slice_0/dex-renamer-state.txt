@@ -1,4 +1,4 @@
-#Mon Apr 22 02:17:04 MSK 2019
+#Thu Apr 25 12:47:31 MSK 2019
 base.0=C\:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
