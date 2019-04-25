@@ -11,5 +11,5 @@ public class WindModel implements Serializable {
     public double speed;
     @SerializedName("deg")
     @Expose
-    public double deg;
+    public int deg;
 }

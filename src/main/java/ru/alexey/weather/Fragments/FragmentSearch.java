@@ -2,6 +2,7 @@ package ru.alexey.weather.Fragments;
 
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -19,7 +20,13 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import ru.alexey.weather.ActivityAboutWeather;
+import ru.alexey.weather.Database.DataBaseHelper;
+import ru.alexey.weather.Database.WeatherTable;
+import ru.alexey.weather.Entities.ListModel;
+import ru.alexey.weather.Entities.WeatherModel;
 import ru.alexey.weather.Entities.WeatherRequestModel;
+import ru.alexey.weather.ModelOfData.CityModelOfData;
+import ru.alexey.weather.ModelOfData.WeatherModelOfData;
 import ru.alexey.weather.R;
 import ru.alexey.weather.Rest.OpenWeatherRepo;
 
@@ -33,22 +40,34 @@ public class FragmentSearch extends Fragment{
     private View view;
     private String cityName;
     private boolean isExitFragmentAboutWeather;
-
+    private WeatherRequestModel responseSerializable;
+    private SQLiteDatabase database;
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_search, container, false);
         initView();
         return view;
     }
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        initDB();
+    }
+
+    private void initDB() {
+        database = new DataBaseHelper(getContext()).getWritableDatabase();
+    }
     //Определяем ориентацию эрана
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         isExitFragmentAboutWeather =
-                getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE;
+                getResources().getConfiguration().orientation
+                        == Configuration.ORIENTATION_LANDSCAPE;
     }
 
     private Intent getIntentAboutWeather() {
@@ -110,9 +129,7 @@ public class FragmentSearch extends Fragment{
         }
     }
 
-    WeatherRequestModel responseSerializable;
-
-    private void requestRetrofit(String cityName){
+    private void requestRetrofit(final String cityName){
         OpenWeatherRepo.getSingleton().getAPI().loadWeather(cityName,
                 "metric",
                 16,
@@ -122,6 +139,7 @@ public class FragmentSearch extends Fragment{
                                    @NonNull Response<WeatherRequestModel> response) {
                 if(response.body() != null && response.isSuccessful()){
                     responseSerializable = response.body();
+                    addElements(cityName, responseSerializable);
                     chooseOrientationAndStart();
                 }
             }
@@ -133,6 +151,26 @@ public class FragmentSearch extends Fragment{
             }
         });
     }
+
+    private void addElements(@NonNull String cityName, @NonNull WeatherRequestModel response){
+        WeatherModelOfData[] weatherModelOfDatas = new WeatherModelOfData[response.list.length];
+        int i=0;
+        for(ListModel list : response.list){
+            WeatherModelOfData weatherModelOfData = new WeatherModelOfData();
+            weatherModelOfData.date = list.dt;
+            weatherModelOfData.date_txt = list.dt_txt;
+            weatherModelOfData.temperature = list.main.temp;
+            weatherModelOfData.humidity = list.main.humidity;
+            weatherModelOfData.wind = list.wind.speed;
+            weatherModelOfData.wind_of_direction = list.wind.deg;
+            weatherModelOfData.pressure = list.main.pressure;
+            weatherModelOfData.picture = list.weather[0].main;
+            weatherModelOfDatas[i++] = weatherModelOfData;
+        }
+        CityModelOfData cityModelOfData = new CityModelOfData(cityName, weatherModelOfDatas);
+        WeatherTable.insertElement(cityModelOfData, database);
+    }
+
 
     public void onClickMenuAboutApp() {
         if(isExitFragmentAboutWeather){
