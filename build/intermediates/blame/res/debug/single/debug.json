@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_moscow.jpg.flat",
-        "source": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\src\\main\\res\\drawable\\moscow.jpg"
-    },
-    {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\27f199db3fbd844d23d799e4396d2823\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_moscow.jpg.flat",
+        "source": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\src\\main\\res\\drawable\\moscow.jpg"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -164,12 +164,12 @@
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
-        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e03cb5f8aaca9b08933f4cc4ffe7e642\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
+        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e03cb5f8aaca9b08933f4cc4ffe7e642\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -192,12 +192,12 @@
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
-        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e03cb5f8aaca9b08933f4cc4ffe7e642\\res\\color\\mtrl_chip_close_icon_tint.xml"
-    },
-    {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
+        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e03cb5f8aaca9b08933f4cc4ffe7e642\\res\\color\\mtrl_chip_close_icon_tint.xml"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -208,12 +208,12 @@
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e03cb5f8aaca9b08933f4cc4ffe7e642\\res\\color\\mtrl_tabs_colored_ripple_color.xml"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
-        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
+        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -260,16 +260,16 @@
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_icon.xml.flat",
@@ -296,16 +296,16 @@
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e03cb5f8aaca9b08933f4cc4ffe7e642\\res\\layout\\mtrl_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
-        "source": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\src\\main\\res\\menu\\main_menu.xml"
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\src\\main\\res\\menu\\main_menu.xml"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_exit.xml.flat",
@@ -320,20 +320,20 @@
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
-        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e03cb5f8aaca9b08933f4cc4ffe7e642\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
+        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e03cb5f8aaca9b08933f4cc4ffe7e642\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -376,12 +376,12 @@
         "source": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\src\\main\\res\\layout\\fragment_search.xml"
     },
     {
-        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
-        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
+        "source": "C:\\Users\\Alexey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c6723beeeb7dbcd046e703b803ddb33d\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "C:\\Users\\Alexey\\AndroidStudioProjects\\Android\\Android2Lesson6\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
